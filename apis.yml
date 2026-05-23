@@ -1,0 +1,87 @@
+aid: dia-browser
+url: https://raw.githubusercontent.com/api-evangelist/dia-browser/refs/heads/main/apis.yml
+name: Dia (The Browser Company)
+kind: company
+description: >-
+  Dia is The Browser Company's successor browser to Arc, positioned as an
+  AI-native browser that integrates a chat assistant, contextual search across
+  open tabs and connected apps (GSuite, Slack, Notion, GitHub), Morning Brief
+  summaries, automatic Reports, Better Meetings, and Live Work integrations
+  directly into the browsing surface. Currently available on macOS 14+ on
+  Apple Silicon. No public developer REST API or SDK has been published; the
+  product is consumer-facing and integrates with third parties as a user-side
+  agent rather than via developer APIs.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Browser
+  - AI Browser
+  - Agent
+  - Consumer
+  - The Browser Company
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: dia-browser:browser
+    name: Dia Browser
+    description: >-
+      AI-native browser for macOS (Apple Silicon) that turns browsing into a
+      working surface for an embedded assistant. Surfaces contextual chat,
+      Morning Brief, Reports, Better Meetings, Live Work, and split-screen
+      layouts.
+    humanURL: https://www.diabrowser.com/
+    baseURL: https://www.diabrowser.com/
+    tags:
+      - Browser
+      - macOS
+      - AI
+    properties:
+      - type: Website
+        url: https://www.diabrowser.com/
+  - aid: dia-browser:assistant
+    name: Dia Assistant
+    description: >-
+      In-browser AI assistant that can answer questions across open tabs and
+      connected apps, summarize content, and chain context across the
+      browsing session. Exposed to end users; no documented public API.
+    humanURL: https://www.diabrowser.com/
+    baseURL: https://www.diabrowser.com/
+    tags:
+      - AI
+      - Assistant
+      - Agent
+    properties:
+      - type: Website
+        url: https://www.diabrowser.com/
+  - aid: dia-browser:integrations
+    name: Dia App Integrations
+    description: >-
+      User-side connections to GSuite, Slack, Notion, GitHub, and similar
+      productivity apps, used by the Dia assistant to ground answers and
+      build Reports. Configured per-user in the browser.
+    humanURL: https://www.diabrowser.com/
+    baseURL: https://www.diabrowser.com/
+    tags:
+      - Integrations
+      - Productivity
+    properties:
+      - type: Website
+        url: https://www.diabrowser.com/
+common:
+  - type: Website
+    url: https://www.diabrowser.com/
+  - type: Company
+    url: https://thebrowser.company/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/the-browser-company
+  - type: Twitter
+    url: https://twitter.com/diabrowser
+integrations:
+  - name: Google Workspace
+  - name: Slack
+  - name: Notion
+  - name: GitHub
+  - name: Google Calendar
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

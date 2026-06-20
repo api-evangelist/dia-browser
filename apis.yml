@@ -11,7 +11,7 @@ description: >-
   Apple Silicon. No public developer REST API or SDK has been published; the
   product is consumer-facing and integrates with third parties as a user-side
   agent rather than via developer APIs.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Browser
   - AI Browser

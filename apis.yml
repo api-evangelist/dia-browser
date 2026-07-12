@@ -68,6 +68,12 @@ apis:
       - type: Website
         url: https://www.diabrowser.com/
 common:
+  - type: TrustCenter
+    url: security/dia-browser-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/dia-browser-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/dia-browser-domain-security.yml
   - type: Website
     url: https://www.diabrowser.com/
   - type: Company

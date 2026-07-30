@@ -11,7 +11,19 @@ description: >-
   Apple Silicon. No public developer REST API or SDK has been published; the
   product is consumer-facing and integrates with third parties as a user-side
   agent rather than via developer APIs.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dia-browser.png
 tags:
   - Browser
   - AI Browser

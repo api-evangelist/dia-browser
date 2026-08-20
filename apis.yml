@@ -27,6 +27,12 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dia-browse
 tags:
   - Browser
   - AI Browser
+  - Agents
+  - Consumer
+  - The Browser Company
+tags_raw:
+  - Browser
+  - AI Browser
   - Agent
   - Consumer
   - The Browser Company
@@ -46,6 +52,10 @@ apis:
     tags:
       - Browser
       - macOS
+      - Artificial Intelligence
+    tags_raw:
+      - Browser
+      - macOS
       - AI
     properties:
       - type: Website
@@ -59,6 +69,10 @@ apis:
     humanURL: https://www.diabrowser.com/
     baseURL: https://www.diabrowser.com/
     tags:
+      - Artificial Intelligence
+      - Assistant
+      - Agents
+    tags_raw:
       - AI
       - Assistant
       - Agent
@@ -74,6 +88,9 @@ apis:
     humanURL: https://www.diabrowser.com/
     baseURL: https://www.diabrowser.com/
     tags:
+      - Integration
+      - Productivity
+    tags_raw:
       - Integrations
       - Productivity
     properties:

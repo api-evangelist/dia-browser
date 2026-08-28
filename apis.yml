@@ -11,6 +11,17 @@ description: >-
   Apple Silicon. No public developer REST API or SDK has been published; the
   product is consumer-facing and integrates with third parties as a user-side
   agent rather than via developer APIs.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown

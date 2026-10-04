@@ -59,7 +59,6 @@ apis:
       Morning Brief, Reports, Better Meetings, Live Work, and split-screen
       layouts.
     humanURL: https://www.diabrowser.com/
-    baseURL: https://www.diabrowser.com/
     tags:
       - Browser
       - macOS
@@ -78,7 +77,6 @@ apis:
       connected apps, summarize content, and chain context across the
       browsing session. Exposed to end users; no documented public API.
     humanURL: https://www.diabrowser.com/
-    baseURL: https://www.diabrowser.com/
     tags:
       - Artificial Intelligence
       - Assistant
@@ -97,7 +95,6 @@ apis:
       productivity apps, used by the Dia assistant to ground answers and
       build Reports. Configured per-user in the browser.
     humanURL: https://www.diabrowser.com/
-    baseURL: https://www.diabrowser.com/
     tags:
       - Integration
       - Productivity

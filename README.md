@@ -1,4 +1,4 @@
-# dia-browser
+# Dia (The Browser Company)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Dia (The Browser Company) — successor AI-native browser
+Dia is The Browser Company's successor browser to Arc, positioned as an AI-native browser that integrates a chat assistant, contextual search across open tabs and connected apps (GSuite, Slack, Notion, GitHub), Morning Brief summaries, automatic Reports, Better Meetings, and Live Work integrations directly into the browsing surface. Currently available on macOS 14+ on Apple Silicon. No public developer REST API or SDK has been published; the product is consumer-facing and integrates with third parties as a user-side agent rather than via developer APIs.
+
+**Areas:** Browser · AI Browser · Agents · Consumer · The Browser Company
+
+## Dia (The Browser Company) on APIs.io
+
+Everything profiled for Dia (The Browser Company) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dia-browser/](https://apis.io/providers/dia-browser/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Dia Browser](https://apis.io/apis/dia-browser/browser/) — AI-native browser for macOS (Apple Silicon) that turns browsing into a working surface for an embedded assistant. Surfaces contextual chat, Morning Brief,…
+- [Dia Assistant](https://apis.io/apis/dia-browser/assistant/) — In-browser AI assistant that can answer questions across open tabs and connected apps, summarize content, and chain context across the browsing session.…
+- [Dia App Integrations](https://apis.io/apis/dia-browser/integrations/) — User-side connections to GSuite, Slack, Notion, GitHub, and similar productivity apps, used by the Dia assistant to ground answers and build Reports.…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dia Browser Domain Security](https://apis.io/security/dia-browser/dia-browser-domain-security/)
+- [Dia Browser Trust Center](https://apis.io/security/dia-browser/dia-browser-trust-center/)
+- [Dia Browser Vulnerability Disclosure](https://apis.io/security/dia-browser/dia-browser-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dia Browser Plans Pricing](https://apis.io/plans/dia-browser/dia-browser-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Dia Browser Rate Limits](https://apis.io/rate-limits/dia-browser/dia-browser-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Dia Browser Finops](https://apis.io/finops/dia-browser/dia-browser-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.diabrowser.com/)
+
+## API Evangelist rating
+
+**Kin Score 9.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 13.2 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dia-browser/](https://apis.io/providers/dia-browser/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dia (The Browser Company): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dia-browser/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
